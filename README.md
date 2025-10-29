@@ -2,8 +2,7 @@
 
 This sample app demonstrates how to use Circle's [Bridge Kit](https://www.npmjs.com/package/@circle-fin/bridge-kit) to transfer USDC across chains with a wallet-connect experience for both EVM and Solana testnets.
 
-<img width="830" height="538" alt="screenshot2" src="https://github.com/user-attachments/assets/9a4589b6-2d1f-4a41-9c23-a96aafc12da0" />
-
+<img width="830" height="525" alt="App interface showing Metamask approval for burn" src="https://github.com/user-attachments/assets/bb216390-f37a-4141-b4c2-5111a8beecc6" />
 
 ## Prerequisites
 
@@ -15,15 +14,15 @@ This sample app demonstrates how to use Circle's [Bridge Kit](https://www.npmjs.
 
 1. Install dependencies:
 
-```bash
-npm install
-```
+    ```bash
+    npm install
+    ```
 
 2. Start the app in development:
 
-```bash
-npm run dev
-```
+    ```bash
+    npm run dev
+    ```
 
 This runs both:
 - Client (Vite) on `http://localhost:5173`
@@ -33,17 +32,17 @@ The Vite dev server proxies `/api` to the preview server per `vite.config.ts`.
 
 3. Build for production:
 
-```bash
-npm run build
-```
+    ```bash
+    npm run build
+    ```
 
 Outputs static assets to `dist/` and type-checks the project.
 
 4. Preview the production build locally:
 
-```bash
-npm run preview
-```
+    ```bash
+    npm run preview
+    ```
 
 Serves `dist/` using the Hono server on `http://localhost:8787`.
 
